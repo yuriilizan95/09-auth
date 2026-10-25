@@ -6,7 +6,8 @@ import {
 } from "./clientApi";
 import api from "./api";
 import { cookies } from "next/headers";
-import { Note, User } from "@/types/note";
+import { Note } from "@/types/note";
+import { User } from "@/types/user";
 
 export const fetchNotes = async (
   params?: FetchNotesParams,
