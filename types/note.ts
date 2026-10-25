@@ -1,4 +1,4 @@
-export type NoteTag = 'Todo' | 'Work' | 'Personal' | 'Meeting' | 'Shopping' ;
+export type NoteTag = "Todo" | "Work" | "Personal" | "Meeting" | "Shopping";
 
 export interface Note {
   id: string;
@@ -13,4 +13,10 @@ export interface FormNotePayload {
   title: string;
   content: string;
   tag?: NoteTag;
+}
+
+export interface User {
+  username: string;
+  email: string;
+  avatar: string;
 }
