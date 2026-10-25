@@ -14,9 +14,3 @@ export interface FormNotePayload {
   content: string;
   tag?: NoteTag;
 }
-
-export interface User {
-  username: string;
-  email: string;
-  avatar: string;
-}

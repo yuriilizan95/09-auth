@@ -1,6 +1,6 @@
-import { type AxiosResponse } from "axios";
-import type { Note, FormNotePayload, User } from "@/types/note";
+import type { Note, FormNotePayload } from "@/types/note";
 import api from "./api";
+import { User } from "@/types/user";
 
 export interface FetchNotesParams {
   page?: number;
